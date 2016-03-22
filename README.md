@@ -16,7 +16,7 @@ def long_greeting(name, favorite_food, language):
     return "Hello " + name + ", we have some " + favorite_food + " for you, but first you'll have to write FizzBuzz in " + language + "!"
 
 >>> print long_greeting("Danny", "Lasagna", "Ruby")
-Hello Danny, we have some Lasagna for you, but first you'll have to write FizzBuzz in Ruby!
+"Hello Danny, we have some Lasagna for you, but first you'll have to write FizzBuzz in Ruby!""
 ```
 Pretty simple - separate multiple parameters using comments. You can use as many parameters as you need.
 
@@ -29,10 +29,10 @@ def airfare_search(start_point, destination, airline_class = "economy"):
     return "searching for " + airline_class + " class tickets from " + start_point + " to " + destination
 
 >>> print airfare_search("New York", "Mumbai", "first")
-searching for first class tickets from New York to Mumbai
+"searching for first class tickets from New York to Mumbai"
 
 >>> print airfare_search("Aruba", "Lima")
-searching for economy class tickets from Aruba to Lima
+"searching for economy class tickets from Aruba to Lima"
 
 ```
 
