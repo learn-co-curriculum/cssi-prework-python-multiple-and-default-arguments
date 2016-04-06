@@ -3,7 +3,7 @@
 ## Objectives
 + Define and use functions that have multiple parameters
 + Define and use functions that have default arguments
-+ Understand the purpose of default arguments in Python
++ Describe the purpose of default arguments in Python
 
 ## Overview
 We will often want to create and use functions that take in multiple pieces of infomation. For this we add additional parameters during function definition. In other cases, we want to add an argument in only certain situations - we'll create default arguments to solve for these cases.
@@ -36,6 +36,6 @@ def airfare_search(start_point, destination, airline_class = "economy"):
 
 ```
 
-Notice that I was able to completely omit the airline class in the second invocation of the method, and it defaulted to "economy". This is because we set the default argument in the parameter as `airline_class = "economy"`.
+Notice that we were able to completely omit the airline class in the second invocation of the method, and it defaulted to "economy". This is because we set the default argument in the parameter as `airline_class = "economy"`.
 
 Can you think of situations where you'd need to use default arguments in a function?
